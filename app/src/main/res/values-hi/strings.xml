@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">AndroidAssignments</string>
+    <string name="hello_message">हैलो वर्ल्ड</string>
+    <string name="btn_message">मैं बटन हूँ</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="login_email">लॉगिन ईमेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="enter_password" tools:ignore="DuplicateDefinition">पासवर्ड</string>
+    <string name="radio_btn" tools:ignore="DuplicateDefinition">रेडियो की बटन</string>
+    <string name="checkbox">चेक बॉक्स</string>
+    <string name="switch_btn" tools:ignore="DuplicateDefinition">यह क्या करता है?</string>
+    <string name="image_btn">छवि</string>
+    <string name="back" tools:ignore="ExtraTranslation">पीछे</string>
+    <string name="logout_btn">लॉग आउट</string>
+    <string name="my_application">मेरा आवेदन</string>
+
+    <string name="switch_is_On" translatable="false">स्विच चालू है</string>
+    <string name="switch_is_Off" translatable="false">स्विच ऑफ है</string>
+    <string name="set_Message" translatable="false">चेकबॉक्स चेक करना चाहते हैं?</string>
+    <string name="set_Title" translatable="false">क्या आपको यकीन है?</string>
+    <string name="set_Positive_Button" translatable="false">ठीक है</string>
+    <string name="set_Negative_Button" translatable="false">रद्द करना</string>
+    <string name="Response" translatable="false">ListItemsActivity पारित: साझा करने के लिए मेरी जानकारी</string>
+
+    <string name="email_invalid" translatable="false">एक मान्य ईमेल पता दर्ज करें!</string>
+    <string name="password_invalid" translatable="false">एक वैध पासवर्ड दर्ज करें!</string>
+
+    <string name="start_chat" translatable="false">चैट प्रारंभ करें</string>
+    <string name="send">भेजना</string>
+    <string name="type_message" translatable="false">एक संदेश टाइप करें...</string>
+    <string name="Test_toolbar">परीक्षण टूलबार</string>
+    <string name="go_back">क्या आप वापस जाना चाहते हैं?</string>
+    <string name="ok">हाँ</string>
+    <string name="cancel">नहीं</string>
+    <string name="option_1">विकल्प 1</string>
+    <string name="option_2">विकल्प 2</string>
+    <string name="option_3">विकल्प 3</string>
+    <string name="action_about">के बारे में</string>
+    <string name="dialog_title_custom">कस्टम संवाद</string>
+    <string name="version_num">संस्करण 1.0, कृशा द्वारा</string>
+    <string name="snack_bar">आपने विकल्प आइटम 1 चुना</string>
+    <string name="weather_image">मौसम की छवि</string>
+    <string name="Delete_this_message">इस संदेश को हटा दें</string>
+    <string name="first_fragment_label">पहला टुकड़ा</string>
+    <string name="second_fragment_label">दूसरा टुकड़ा</string>
+    <string name="next">अगला</string>
+    <string name="previous">पहले का</string>
+    <string name="Current_Temperature">वर्तमान तापमान:</string>
+    <string name="Minimum_Temperature">न्यूनतम तापमान:</string>
+    <string name="Maximum_Temperature">अधिकतम तापमान:</string>
+    <string name="Weather_Forecast">मौसम पूर्वानुमान</string>
+</resources>

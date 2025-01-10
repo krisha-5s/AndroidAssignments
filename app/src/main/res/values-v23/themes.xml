@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.AppCompat.Light.DarkActionBar" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Transparent system bars for edge-to-edge. -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+    </style>
+
+    <style name="CustomButtonStyle">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#FF5722</item>
+    </style>
+</resources>

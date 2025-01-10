@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:padding="8dp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/messageIdTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:padding="8dp"
+        android:layout_below="@id/messageTextView" />
+
+    <Button
+        android:id="@+id/deleteMessageButton"
+        android:text="@string/Delete_this_message"
+        style="@style/StyleBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

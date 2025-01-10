@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatWindow"
+    android:background="@color/purple"
+    >
+
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/toolbar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="56dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:background="@color/purple"-->
+<!--        android:title="Chat Window"-->
+<!--        android:titleTextColor="@android:color/black"-->
+<!--        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>-->
+
+    <ListView
+        android:id="@+id/chatListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <EditText
+        android:id="@+id/msgEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/send_btn"
+        android:hint="@string/type_message"
+        android:padding="10dp" />
+
+    <!-- Send button -->
+    <Button
+        android:id="@+id/send_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/send"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp" />
+</RelativeLayout >
